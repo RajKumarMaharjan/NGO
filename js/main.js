@@ -1,0 +1,14 @@
+$(window).scroll(function(){
+    if($(this).scrollTop()>200)
+    {
+        $("nav").addClass("scroll")
+        $(".logo1").show()
+        $(".logo").hide()
+    }
+    else
+    {
+        $("nav").removeClass("scroll")
+        $(".logo1").hide()
+        $(".logo").show()
+    }
+})

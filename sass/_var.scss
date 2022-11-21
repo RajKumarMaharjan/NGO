@@ -1,0 +1,20 @@
+$white:#FFFFFF;
+$green:#46C965;
+$black:#303030;
+
+
+@mixin res {
+    @media(max-width:480px)
+    {
+        @content;
+    }
+}
+
+@mixin w-mid {
+    @media(max-width: 768px)
+    {
+        @content;
+    }
+}
+
+

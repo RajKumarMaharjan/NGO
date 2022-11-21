@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    color: $black;
+    background-color: $white;
+    font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 500;
+    font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-weight: 400;
+}
+a
+{
+transform: all 300ms ease-in-out;
+&:hover, &:focus
+{
+    text-decoration: none;
+    outline: 0px;
+}
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure
+{
+    margin: 0;
+}
+section
+{
+    display: block;
+    position: relative;
+    padding: 50px 0;
+    width: 100%;
+}
